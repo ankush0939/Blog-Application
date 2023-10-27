@@ -13,14 +13,20 @@ const Navbar = () => {
 					<Image src="/instagram.png" alt="instagram" width={24} height={24} />
 					<Image src="/twitter.png" alt="twitter" width={24} height={24} />
 				</div>
-				<div className={styles.logo}>Writers Paradice</div>
+				<div className={styles.logo}>QuillSnap</div>
 				<div className={styles.links}>
-					<ThemeToggle/>
-					<Link href="/" className={styles.link}>Homepage</Link>
-					<Link href="/" className={styles.link}>Contact</Link>
-				    <Link href="/" className={styles.link}>About</Link>
-					<AuthLinks/>
-                </div>
+					<ThemeToggle />
+					<Link href="/" className={styles.link}>
+						Homepage
+					</Link>
+					<Link href="/" className={styles.link}>
+						Contact
+					</Link>
+					<Link href="/" className={styles.link}>
+						About
+					</Link>
+					<AuthLinks />
+				</div>
 			</div>
 		);
 }
